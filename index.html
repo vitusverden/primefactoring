@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hejsa</title>
     <script src="main.js"></script>
+    <script src="https://vitusverden.github.io/vitusresources/script.js"></script> <!--Vitus's navbar & dark theme osv-->
 </head>
 <body>
-    vitus secret prime factorizer <br>
-
-    hvilket tal vil du bruge? <br> <input type="number" id="tal"> <br>
+    Primtals faktorisering
+    <br>
+    <br>
+    Hvilket tal vil du bruge? <br> <input type="number" id="tal" value="2"> <br>
     <button onclick="factorize(document.getElementById('tal').value)">ok</button>
     <br>
-    ok det er det her:
+    Faktorisering:
     <br>
     <p id="output"></p>
 </body>
